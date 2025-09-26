@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFuture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <div class="logo">EduFuture</div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menyuni almashtirish">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#hero">Bosh sahifa</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#news">Yangiliklar</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="hero-tag">Kelajak ta'limi</span>
+                    <h1>Zamonaviy bilimlar bilan kelajakni bugun quramiz</h1>
+                    <p>Mutaxassislar tomonidan ishlab chiqilgan interaktiv kurslar va yangi avlod o'quv materiallari.</p>
+                    <a class="btn" href="#courses">Boshlash</a>
+                </div>
+                <div class="hero-visual" aria-hidden="true"></div>
+            </div>
+        </section>
+
+        <section id="courses" class="cards-section">
+            <div class="container section-header">
+                <h2>Ommabop yo'nalishlar</h2>
+                <p>Bozor talablariga mos, chuqurlashtirilgan kurslar va master-klasslar.</p>
+            </div>
+            <div class="container cards-grid">
+                <article class="card">
+                    <h3>Digital Marketing</h3>
+                    <p>Raqamli reklama, SEO va kontent strategiyalarini amaliy misollarda o'rganing.</p>
+                    <a href="#" class="card-link">Batafsil</a>
+                </article>
+                <article class="card">
+                    <h3>Data Science</h3>
+                    <p>Python, statistik tahlil va mashinaviy o'qitish asoslari bilan real loyihalar.</p>
+                    <a href="#" class="card-link">Batafsil</a>
+                </article>
+                <article class="card" id="news">
+                    <h3>UX/UI Dizayn</h3>
+                    <p>Foydalanuvchi tajribasi va interfeys dizayni bo'yicha zamonaviy yondashuvlar.</p>
+                    <a href="#" class="card-link">Batafsil</a>
+                </article>
+                <article class="card">
+                    <h3>Soft Skills</h3>
+                    <p>Jamoada ishlash, liderlik va taqdimot ko'nikmalarini rivojlantiring.</p>
+                    <a href="#" class="card-link">Batafsil</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="container about-grid">
+                <div class="about-text">
+                    <h2>Biz haqimizda</h2>
+                    <p>EduFuture jamoasi innovatsion ta'lim yechimlarini yaratish orqali har bir talaba uchun imkoniyatlar ochishni maqsad qilgan. Biz kurslarimizni mutaxassislar bilan hamkorlikda ishlab chiqamiz, interaktiv mashg'ulotlar va hamjamiyat qo'llab-quvvatlashini taqdim etamiz.</p>
+                    <p>Doimiy ravishda yangilanib boruvchi kontent va mentorlik dasturlari orqali o'quvchilarimizga kasbiy rivojlanishda yordam beramiz.</p>
+                </div>
+                <div class="about-visual" role="img" aria-label="Ta'lim jarayoni ilustratsiyasi"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+        <div class="container footer-grid">
+            <div>
+                <h3>EduFuture</h3>
+                <p>Biz bilan zamonaviy bilimlar sari qadam tashlang.</p>
+            </div>
+            <div>
+                <h4>Aloqa</h4>
+                <p>contact@edufuture.uz</p>
+                <p>+998 (90) 123-45-67</p>
+            </div>
+            <div>
+                <h4>Bizni kuzating</h4>
+                <ul class="social-links">
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-note">© 2024 EduFuture. Barcha huquqlar himoyalangan.</p>
+    </footer>
+</body>
+</html>
